@@ -14,7 +14,8 @@
     "lint:fix": "eslint --fix './**/*.{js,jsx}'",
     "build": "webpack --mode production",
     "cy:install": "cypress install",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "test:e2e": "cypress run"
   },
   "repository": {
     "type": "git",
